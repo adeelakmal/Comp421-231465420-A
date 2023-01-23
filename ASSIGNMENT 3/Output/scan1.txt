@@ -1,0 +1,4 @@
+# Nmap 7.93 scan initiated Mon Jan 23 17:40:11 2023 as: nmap -oG scan.txt -oX c:\\users\\admin\\appdata\\local\\temp\\zenmap-nedrls.xml 172.30.46.25
+Host: 172.30.46.25 ()	Status: Up
+Host: 172.30.46.25 ()	Ports: 135/open/tcp//msrpc///, 139/open/tcp//netbios-ssn///, 445/open/tcp//microsoft-ds///, 5357/open/tcp//wsdapi///, 7070/open/tcp//realserver///	Ignored State: closed (995)
+# Nmap done at Mon Jan 23 17:40:11 2023 -- 1 IP address (1 host up) scanned in 0.61 seconds

@@ -1,0 +1,12 @@
+# Nmap 7.93 scan initiated Mon Jan 23 17:36:35 2023 as: nmap -oN scan.txt -oX c:\\users\\admin\\appdata\\local\\temp\\zenmap-rai2q2.xml 172.30.46.25
+Nmap scan report for 172.30.46.25
+Host is up (0.00098s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+5357/tcp open  wsdapi
+7070/tcp open  realserver
+
+# Nmap done at Mon Jan 23 17:36:35 2023 -- 1 IP address (1 host up) scanned in 0.60 seconds
